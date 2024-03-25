@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "Lecture03-HW\\Lecture03-HW.cpp",
               "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp",
               "RelativeToolTip": "Lecture03-HW\\Lecture03-HW.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-25T05:33:21.48Z",
               "EditorCaption": ""
