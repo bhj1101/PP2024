@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Git\\PP2024\\ConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B34CE57D-E982-46D3-9EB3-5B637F7CB3B4}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B34CE57D-E982-46D3-9EB3-5B637F7CB3B4}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24E4424C-9322-4A85-8F9A-8389FA511391}|Lecture03-HW\\Lecture03-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24E4424C-9322-4A85-8F9A-8389FA511391}|Lecture03-HW\\Lecture03-HW.vcxproj|solutionrelative:Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConsoleApplication1.cpp",
-              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\ConsoleApplication1\\ConsoleApplication1.cpp",
-              "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\ConsoleApplication1\\ConsoleApplication1.cpp",
-              "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Lecture03-HW.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp",
+              "RelativeDocumentMoniker": "Lecture03-HW\\Lecture03-HW.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp",
+              "RelativeToolTip": "Lecture03-HW\\Lecture03-HW.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T13:14:08.177Z",
+              "WhenOpened": "2024-03-25T05:33:21.48Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
