@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Git\\PP2024\\ConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24E4424C-9322-4A85-8F9A-8389FA511391}|Lecture03-HW\\Lecture03-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24E4424C-9322-4A85-8F9A-8389FA511391}|Lecture03-HW\\Lecture03-HW.vcxproj|solutionrelative:Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{834CA9AA-5442-4187-ACC8-D2734B68BE67}|Lecture04_HW\\Lecture04_HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{834CA9AA-5442-4187-ACC8-D2734B68BE67}|Lecture04_HW\\Lecture04_HW.vcxproj|solutionrelative:Lecture04_HW\\Lecture04_HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lecture03-HW.cpp",
-              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp",
-              "RelativeDocumentMoniker": "Lecture03-HW\\Lecture03-HW.cpp",
-              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture03-HW\\Lecture03-HW.cpp",
-              "RelativeToolTip": "Lecture03-HW\\Lecture03-HW.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAPAAAA",
+              "Title": "Lecture04_HW.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp",
+              "RelativeDocumentMoniker": "Lecture04_HW\\Lecture04_HW.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp",
+              "RelativeToolTip": "Lecture04_HW\\Lecture04_HW.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-25T05:33:21.48Z",
+              "WhenOpened": "2024-04-01T11:23:18.525Z",
               "EditorCaption": ""
             }
           ]

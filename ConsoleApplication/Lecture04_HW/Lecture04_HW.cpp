@@ -13,6 +13,19 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
+enum Color {
+	Black,
+	Red,
+	Green,
+	Blue,
+	Magenta
+};
+Color currentColor = Black;
+
+bool isLeftButtonDown = false;
+bool isRightButtonDown = false;
+bool isDragging = false;
+
 void errorCallback(int error, const char* description)
 {
 	std::cerr << "GLFW Error: " << description << std::endl;
@@ -26,13 +39,68 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 	}
 }
 
-void mouseCallback(GLFWwindow* window, int button, int action, int mods)
-{
-	switch (button==GLFW_MOUSE_BUTTON_RIGHT&&action==GLFW_KEY_DOWN)
-	{
-	default:
+void mouseCallback(GLFWwindow* window, int button, int action, int mods) {
+	if (button == GLFW_MOUSE_BUTTON_LEFT) {
+		if (action == GLFW_PRESS) {
+			isLeftButtonDown = true;
+			currentColor = Green;
+		}
+		else if (action == GLFW_RELEASE) {
+			isLeftButtonDown = false;
+			currentColor = Black;
+			isDragging = false;
+		}
+	}
+	else if (button == GLFW_MOUSE_BUTTON_RIGHT) {
+		if (action == GLFW_PRESS) {
+			isRightButtonDown = true;
+			currentColor = Red;
+		}
+		else if (action == GLFW_RELEASE) {
+			isRightButtonDown = false;
+			currentColor = Black;
+			isDragging = false;
+		}
+	}
+}
+
+void onCursorPos(GLFWwindow* window, double xpos, double ypos) {
+	if ((isLeftButtonDown || isRightButtonDown) && !isDragging) {
+		isDragging = true;
+		if (currentColor == Green) {
+			currentColor = Magenta;
+		}
+		else if (currentColor == Red) {
+			currentColor = Blue;
+		}
+	}
+	else if (!(isLeftButtonDown || isRightButtonDown)) {
+		isDragging = false;
+	}
+}
+
+void onRender(GLFWwindow* window) {
+	switch (currentColor) {
+	case Black:
+		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+		break;
+	case Red:
+		glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+		break;
+	case Green:
+		glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
+		break;
+	case Blue:
+		glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
+		break;
+	case Magenta:
+		glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
 		break;
 	}
+
+	glClear(GL_COLOR_BUFFER_BIT);
+
+	glfwSwapBuffers(window);
 }
 
 int main(void)
@@ -52,13 +120,13 @@ int main(void)
 	glfwMakeContextCurrent(window);
 	glfwSetErrorCallback(errorCallback);
 	glfwSetKeyCallback(window, keyCallback);
+	glfwSetMouseButtonCallback(window, mouseCallback);
+	glfwSetCursorPosCallback(window, onCursorPos);
 
 	while (!glfwWindowShouldClose(window))
 	{
 		glfwPollEvents();
-		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
-		glfwSwapBuffers(window);
+		onRender(window);
 	}
 
 	glfwTerminate();
