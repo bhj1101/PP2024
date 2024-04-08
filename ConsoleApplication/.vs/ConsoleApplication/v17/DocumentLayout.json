@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Git\\PP2024\\ConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{834CA9AA-5442-4187-ACC8-D2734B68BE67}|Lecture04_HW\\Lecture04_HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{834CA9AA-5442-4187-ACC8-D2734B68BE67}|Lecture04_HW\\Lecture04_HW.vcxproj|solutionrelative:Lecture04_HW\\Lecture04_HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{35B58B27-2689-40AC-A6E2-38C0831E1530}|Lecture05-HW\\Lecture05-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35B58B27-2689-40AC-A6E2-38C0831E1530}|Lecture05-HW\\Lecture05-HW.vcxproj|solutionrelative:Lecture05-HW\\Lecture05-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lecture04_HW.cpp",
-              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp",
-              "RelativeDocumentMoniker": "Lecture04_HW\\Lecture04_HW.cpp",
-              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture04_HW\\Lecture04_HW.cpp",
-              "RelativeToolTip": "Lecture04_HW\\Lecture04_HW.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAAAAAA",
+              "Title": "Lecture05-HW.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp",
+              "RelativeDocumentMoniker": "Lecture05-HW\\Lecture05-HW.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp",
+              "RelativeToolTip": "Lecture05-HW\\Lecture05-HW.cpp",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAswF4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-01T15:22:24.732Z",
+              "WhenOpened": "2024-04-08T07:26:18.225Z",
               "EditorCaption": ""
             }
           ]
