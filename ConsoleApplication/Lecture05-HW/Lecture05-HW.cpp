@@ -93,10 +93,10 @@ int render()
 	glVertex2f(0.0f, 1.0f);
 	//점2
 	glColor3f(1.0f, 1.0f, 1.0f);
-	glVertex2f(0.62f, -1.0f);
+	glVertex2f(0.61f, -1.0f);
 	//점3
 	glColor3f(1.0f, 1.0f, 1.0f);
-	glVertex2f(-0.4f, -0.24f);
+	glVertex2f(-0.38f, -0.24f);
 	glEnd();
 
 	glBegin(GL_TRIANGLES);
@@ -105,10 +105,10 @@ int render()
 	glVertex2f(0.0f, 1.0f);
 	//점2
 	glColor3f(1.0f, 1.0f, 1.0f);
-	glVertex2f(-0.62f, -1.0f);
+	glVertex2f(-0.61f, -1.0f);
 	//점3
 	glColor3f(1.0f, 1.0f, 1.0f);
-	glVertex2f(0.4f, -0.24f);
+	glVertex2f(0.38f, -0.24f);
 	glEnd();
 
 	glBegin(GL_TRIANGLES);
@@ -117,7 +117,7 @@ int render()
 	glVertex2f(-1.0f, 0.23f);
 	//점2
 	glColor3f(1.0f, 1.0f, 1.0f);
-	glVertex2f(0.0f, -0.55f);
+	glVertex2f(0.0f, -0.53f);
 	//점3
 	glColor3f(1.0f, 1.0f, 1.0f);
 	glVertex2f(1.0f, 0.23f);
