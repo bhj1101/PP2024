@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Git\\PP2024\\ConsoleApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35B58B27-2689-40AC-A6E2-38C0831E1530}|Lecture05-HW\\Lecture05-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35B58B27-2689-40AC-A6E2-38C0831E1530}|Lecture05-HW\\Lecture05-HW.vcxproj|solutionrelative:Lecture05-HW\\Lecture05-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Lecture06-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|solutionrelative:Lecture06-HW\\Lecture06-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Star.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|solutionrelative:Lecture06-HW\\Star.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7414C9FB-81C4-4E0C-8A86-65E197783C99}|Lecture06\\Lecture06.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06\\GO_Diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7414C9FB-81C4-4E0C-8A86-65E197783C99}|Lecture06\\Lecture06.vcxproj|solutionrelative:Lecture06\\GO_Diamond.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|solutionrelative:Lecture06-HW\\MSList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|solutionrelative:Lecture06-HW\\MSList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\ObjectTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35950B2E-FF27-42AE-A18D-098BBADA2F49}|Lecture06-HW\\Lecture06-HW.vcxproj|solutionrelative:Lecture06-HW\\ObjectTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lecture05-HW.cpp",
-              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp",
-              "RelativeDocumentMoniker": "Lecture05-HW\\Lecture05-HW.cpp",
-              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture05-HW\\Lecture05-HW.cpp",
-              "RelativeToolTip": "Lecture05-HW\\Lecture05-HW.cpp",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAswF4AAAAdAAAA",
+              "Title": "Lecture06-HW.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Lecture06-HW.cpp",
+              "RelativeDocumentMoniker": "Lecture06-HW\\Lecture06-HW.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Lecture06-HW.cpp",
+              "RelativeToolTip": "Lecture06-HW\\Lecture06-HW.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-08T07:26:18.225Z",
+              "WhenOpened": "2024-04-20T14:22:03.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectTest.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\ObjectTest.cpp",
+              "RelativeDocumentMoniker": "Lecture06-HW\\ObjectTest.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\ObjectTest.cpp",
+              "RelativeToolTip": "Lecture06-HW\\ObjectTest.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T11:00:30.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Star.hpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Star.hpp",
+              "RelativeDocumentMoniker": "Lecture06-HW\\Star.hpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\Star.hpp",
+              "RelativeToolTip": "Lecture06-HW\\Star.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T10:40:27.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MSList.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.cpp",
+              "RelativeDocumentMoniker": "Lecture06-HW\\MSList.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.cpp",
+              "RelativeToolTip": "Lecture06-HW\\MSList.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T09:55:42.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MSList.h",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.h",
+              "RelativeDocumentMoniker": "Lecture06-HW\\MSList.h",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06-HW\\MSList.h",
+              "RelativeToolTip": "Lecture06-HW\\MSList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T09:54:57.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GO_Diamond.cpp",
+              "DocumentMoniker": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06\\GO_Diamond.cpp",
+              "RelativeDocumentMoniker": "Lecture06\\GO_Diamond.cpp",
+              "ToolTip": "D:\\Git\\PP2024\\ConsoleApplication\\Lecture06\\GO_Diamond.cpp",
+              "RelativeToolTip": "Lecture06\\GO_Diamond.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T09:35:00.59Z",
               "EditorCaption": ""
             }
           ]
