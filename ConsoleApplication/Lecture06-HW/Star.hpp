@@ -19,43 +19,34 @@ public:
         glScalef(scale, scale, 1.0f);
 
         glBegin(GL_TRIANGLES);
-        // Point 1
         glColor3f(red, green, blue);
         glVertex2f(0.0f, 1.0f);
 
-        // Point 2
         glColor3f(red, green, blue);
         glVertex2f(0.61f, -1.0f);
 
-        // Point 3
         glColor3f(red, green, blue);
         glVertex2f(-0.38f, -0.24f);
         glEnd();
 
         glBegin(GL_TRIANGLES);
-        // Point 1
         glColor3f(red, green, blue);
         glVertex2f(0.0f, 1.0f);
 
-        // Point 2
         glColor3f(red, green, blue);
         glVertex2f(-0.61f, -1.0f);
 
-        // Point 3
         glColor3f(red, green, blue);
         glVertex2f(0.38f, -0.24f);
         glEnd();
 
         glBegin(GL_TRIANGLES);
-        // Point 1
         glColor3f(red, green, blue);
         glVertex2f(-1.0f, 0.23f);
 
-        // Point 2
         glColor3f(red, green, blue);
         glVertex2f(0.0f, -0.53f);
 
-        // Point 3
         glColor3f(red, green, blue);
         glVertex2f(1.0f, 0.23f);
         glEnd();
