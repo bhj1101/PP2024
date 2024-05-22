@@ -33,7 +33,6 @@ int setVertexRotation(float x, float y, float angle_degree)
 	glVertex2f(x * cos(angle_degree) - (y * sin(angle_degree)), x * sin(angle_degree) + (y * cos(angle_degree)));
 	return 0;
 }
-
 float angle = 0;
 
 int render()
@@ -41,7 +40,7 @@ int render()
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	glRotatef(angle, 0.0, 0.0, 1.0f);
-	angle = angle + 0.01;
+	angle = angle + 0.1;
 
 	glBegin(GL_TRIANGLE_FAN);
 	glColor3f(1.0f, 0.851f, 0.4f);
@@ -79,7 +78,13 @@ int render()
 
 		glVertex2f(newX, newY);
 	}
+	glEnd();
 
+	glBegin(GL_TRIANGLE_FAN);
+	glColor3f(1.0f, 0.902f, 0.6f);
+	for (float angle = 0.0f; angle < 2 * 3.14; angle += 0.01f) {
+		glVertex2f(0.5f + cos(angle) * 0.2f, sin(angle) * 0.2f);
+	}
 	glEnd();
 
 
@@ -89,6 +94,7 @@ int render()
 
 int main(void)
 {
+	
 	//glfw라이브러리 초기화
 	if (!glfwInit())
 		return -1;
