@@ -43,10 +43,10 @@ public:
         // 주어진 위치 (x, y) 및 높이(height)로 적 블록 렌더링 (파란색, 50cm x height)
         glBegin(GL_QUADS);
         glColor3f(0.0f, 0.0f, 1.0f); // 파란색
-        glVertex2f(x - 25.0f, y);
-        glVertex2f(x + 25.0f, y);
-        glVertex2f(x + 25.0f, y + height);
-        glVertex2f(x - 25.0f, y + height);
+        glVertex2f(x - 0.25f, y);
+        glVertex2f(x + 0.25f, y);
+        glVertex2f(x + 0.25f, y + height);
+        glVertex2f(x - 0.25f, y + height);
         glEnd();
     }
 };

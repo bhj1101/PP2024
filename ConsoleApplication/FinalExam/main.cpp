@@ -47,14 +47,56 @@ int Initialize()
 int Update()
 {
 	return 0;
+
+	float red = 1.0f;
+	float green = 1.0f;
+	float blue = 1.0f;
+
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+	glTranslatef(0.0f, 0.0f, 0.0f);
+	glScalef(0.02f, 0.02f, 1.0f);
+
+	glBegin(GL_TRIANGLES);
+	glColor3f(red, green, blue);
+	glVertex2f(0.0f, 1.0f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(0.61f, -1.0f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(-0.38f, -0.24f);
+	glEnd();
+
+	glBegin(GL_TRIANGLES);
+	glColor3f(red, green, blue);
+	glVertex2f(0.0f, 1.0f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(-0.61f, -1.0f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(0.38f, -0.24f);
+	glEnd();
+
+	glBegin(GL_TRIANGLES);
+	glColor3f(red, green, blue);
+	glVertex2f(-1.0f, 0.23f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(0.0f, -0.53f);
+
+	glColor3f(red, green, blue);
+	glVertex2f(1.0f, 0.23f);
+	glEnd();
 }
 
 
 int Render()
 {
 	player.Render();
-	enemyBlocks[0].Render(enemyBlockXPositions[0], -100.0f, enemyBlockHeights[0]);
-	enemyBlocks[1].Render(enemyBlockXPositions[1], -100.0f, enemyBlockHeights[1]);
+	enemyBlocks[0].Render(enemyBlockXPositions[0], -1.0f, enemyBlockHeights[0]);
+	enemyBlocks[1].Render(enemyBlockXPositions[1], -1.0f, enemyBlockHeights[1]);
 	//floor.Render();
 	star.Render();
 	return 0;
