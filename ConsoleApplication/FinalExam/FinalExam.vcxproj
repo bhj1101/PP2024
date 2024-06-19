@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileName.h" />
-    <ClInclude Include="FileNameT.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Transform.h" />
   </ItemGroup>
